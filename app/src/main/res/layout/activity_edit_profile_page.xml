@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EditProfilePage">
+
+
+    <RelativeLayout
+        android:id="@+id/lay"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="1dp"
+
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/ic_keyboard_capslock_black_24dp" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit Profile Data"
+                    android:textColor="@color/black"
+                    android:textSize="22dp"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="26sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/ic_users" />
+    <View style="@style/Divider"/>
+    <TextView
+        android:id="@+id/profilepic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Update Profile Pic"
+        android:fontFamily="@font/poppins_regular"
+        android:layout_marginLeft="12dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <View style="@style/Divider"/>
+
+    <TextView
+        android:id="@+id/editname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Update Name"
+        android:layout_marginLeft="12dp"
+        android:fontFamily="@font/poppins_regular"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    <View style="@style/Divider"/>
+
+    <TextView
+        android:id="@+id/changepassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Change Password "
+        android:layout_marginLeft="12dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/poppins_regular"
+        android:textSize="20sp" />
+    <View style="@style/Divider"/>
+
+
+
+</LinearLayout>

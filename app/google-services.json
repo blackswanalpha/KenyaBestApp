@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "695938484905",
+    "firebase_url": "https://kenyabestapp-2003d-default-rtdb.firebaseio.com",
+    "project_id": "kenyabestapp-2003d",
+    "storage_bucket": "kenyabestapp-2003d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695938484905:android:a93a347cdca205535037b8",
+        "android_client_info": {
+          "package_name": "com.example.kenyabestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "695938484905-lm7pnvohem65vlhou3ob8dd6gfqm1ggr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCV551XGFt6cTusH9PNpvL_GTg7-y9za64"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "695938484905-lm7pnvohem65vlhou3ob8dd6gfqm1ggr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AppInfo"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+        <Button
+            android:id="@+id/back"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_chevron_left_black_24dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="10dp"
+
+            android:layout_toRightOf="@id/back"
+
+            android:text="App Info"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:fontFamily="@font/poppins_medium" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:elevation="3dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/AppName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="App Name"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginLeft="12dp"
+            android:textColor="@android:color/black"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/aname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="KenyaBest"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            />
+        <View style="@style/Divider"/>
+        <TextView
+            android:id="@+id/AppVersion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="App Version"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginLeft="12dp"
+            android:textColor="@android:color/black"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/avers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="1.0.3"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/red"
+            android:textSize="16sp" />
+        <View style="@style/Divider"/>
+        <TextView
+            android:id="@+id/AppBuild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Build Number"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginLeft="12dp"
+            android:textColor="@android:color/black"
+
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/abuild"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="006"
+            android:layout_marginLeft="12dp"
+            android:fontFamily="@font/poppins_light"
+            android:textColor="@color/green"
+            android:textSize="16sp" />
+        <View style="@style/Divider"/>
+
+    </LinearLayout>
+
+</LinearLayout>
